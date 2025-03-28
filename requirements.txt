@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+websocket-client
+pydantic
+pillow
+streamlit
+requests
+numpy
