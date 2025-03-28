@@ -6,7 +6,8 @@ Trained and tested on ComfyUI
 
 
 
-![Workflow Screenshot](https://raw.githubusercontent.com/RaviKiran752/comfypy/main/Screenshot%20From%202025-03-29%2002-03-59.png)
+![Workflow Screenshot](https://raw.githubusercontent.com/RaviKiran752/comfypy/main/Screenshot%20From%202025-03-29%2003-13-19.png)
+
 
 Picture of the workflow used
 
