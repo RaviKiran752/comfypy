@@ -5,6 +5,12 @@ Uses sdxl1 with LoRA tuning.
 Trained and tested on ComfyUI
 
 
+
+![Workflow Screenshot](https://raw.githubusercontent.com/RaviKiran752/comfypy/main/Screenshot%20From%202025-03-29%2002-03-59.png)
+
+Picture of the workflow used
+
+
 ## Features
 - Generates images using LoRA tuning
 - FastAPI backend for AI model processing
@@ -38,7 +44,6 @@ streamlit run stremlit_ui.py
 
 ## API Usage
 The FastAPI backend provides an endpoint for generating images.  
-
 - **Endpoint**: `POST /generate`
 - **Request Body** (JSON):
 ```json
@@ -49,12 +54,9 @@ The FastAPI backend provides an endpoint for generating images.
  "lora_strength": 0.7
 }
 
-Response (JSON):
+// Response (JSON):
 {
   "images": ["base64_encoded_image_string"]
 }
 
 
-![alt text](<Screenshot From 2025-03-29 02-03-59.png>)
-
-Picture of the workflow used
