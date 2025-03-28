@@ -12,6 +12,23 @@ Trained and tested on ComfyUI
 Picture of the workflow used
 
 
+## Models Used
+
+This project uses the following models for AI image generation:
+
+- **Base Model (Checkpoint)**: `sd_xl_base_1.0.safetensors`
+- **Alternative Checkpoint**: `realvisxlV50_v50LightningBakedvae.safetensors`
+- **VAE (Variational Autoencoder)**: `sdxl_vae.safetensors`
+- **LoRA Model**: `Aqua_XL2.safetensors`
+- **Custom Nodes**:
+  - `ComfyUI-Impact-Pack`
+  - `ComfyUI-Manager`
+  - `comfyui-tooling-nodes`
+  - `comfyui_ultimatesdupscale`
+  - `rgthree-comfy`
+  - `websocket_image_save.py`
+
+
 ## Features
 - Generates images using LoRA tuning
 - FastAPI backend for AI model processing
